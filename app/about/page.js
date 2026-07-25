@@ -65,10 +65,10 @@ export default function AboutPage() {
             <div className="lg:sticky lg:top-28">
               <div className="overflow-hidden rounded-3xl border border-graphite-200 shadow-xl dark:border-white/10">
                 <Image
-                  src="/images/pastor/philip-portrait-01.jpg"
-                  alt="Pastor Philip Olubakin"
-                  width={1000}
-                  height={1060}
+                  src="/images/ministry/fullbody.jpg"
+                  alt="Pastor Philip Olubakin on stage"
+                  width={1290}
+                  height={1547}
                   className="w-full object-cover"
                 />
               </div>
@@ -120,11 +120,19 @@ export default function AboutPage() {
           <Reveal>
             <div className="overflow-hidden rounded-3xl border border-graphite-200 bg-graphite-50 p-8 dark:border-white/10 dark:bg-navy-900 sm:p-12">
               <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr]">
-                <div className="grid aspect-square place-items-center rounded-3xl bg-gradient-to-br from-navy-800 to-navy-950 p-10 text-center text-white">
-                  <div>
-                    <Heart size={40} className="mx-auto text-gold-light" />
-                    <p className="mt-4 font-display text-2xl font-bold">Philip &amp; Funmi</p>
-                    <p className="mt-1 text-sm text-white/60">Serving together in ministry</p>
+                <div className="relative aspect-square overflow-hidden rounded-3xl shadow-xl">
+                  <Image
+                    src="/images/ministry/family.jpg"
+                    alt="Pastor Philip and Pastor Funmi Olubakin"
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 40vw"
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/70 via-transparent to-transparent" />
+                  <div className="absolute inset-x-0 bottom-0 p-6 text-white">
+                    <Heart size={22} className="text-gold-light" />
+                    <p className="mt-2 font-display text-2xl font-bold">Philip &amp; Funmi</p>
+                    <p className="mt-1 text-sm text-white/70">Serving together in ministry</p>
                   </div>
                 </div>
                 <div>

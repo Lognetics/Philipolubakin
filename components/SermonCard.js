@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { Play, Clock, BookOpen, Bookmark } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -22,9 +23,18 @@ export default function SermonCard({ sermon }) {
       transition={{ type: 'spring', stiffness: 300, damping: 20 }}
       className="group overflow-hidden rounded-2xl border border-graphite-200/70 bg-white shadow-sm dark:border-white/10 dark:bg-navy-900/60"
     >
-      <div className={`relative aspect-video bg-gradient-to-br ${grad}`}>
-        <div className="absolute inset-0 opacity-30 [background-image:radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] [background-size:22px_22px]" />
-        <span className="absolute left-3 top-3 rounded-full bg-black/30 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-gold-light backdrop-blur">
+      <div className={`relative aspect-video overflow-hidden bg-gradient-to-br ${grad}`}>
+        {sermon.image && (
+          <Image
+            src={sermon.image}
+            alt={sermon.title}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        )}
+        <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-navy-950/10 to-navy-950/30" />
+        <span className="absolute left-3 top-3 rounded-full bg-black/40 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-gold-light backdrop-blur">
           {sermon.series}
         </span>
         <button
@@ -35,7 +45,7 @@ export default function SermonCard({ sermon }) {
             <Play size={22} className="ml-1" fill="currentColor" />
           </span>
         </button>
-        <span className="absolute bottom-3 right-3 flex items-center gap-1 rounded-full bg-black/40 px-2.5 py-1 text-[11px] text-white backdrop-blur">
+        <span className="absolute bottom-3 right-3 flex items-center gap-1 rounded-full bg-black/50 px-2.5 py-1 text-[11px] text-white backdrop-blur">
           <Clock size={12} /> {sermon.duration}
         </span>
       </div>

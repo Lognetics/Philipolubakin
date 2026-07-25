@@ -7,3 +7,6 @@
 .env*
 npm-debug.log*
 .vercel
+
+# Original uploaded source images (not shipped)
+/Pst Philip Olubakin Images/

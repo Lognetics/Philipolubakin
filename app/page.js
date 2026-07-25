@@ -8,7 +8,7 @@ import CountUp from '../components/CountUp';
 import Countdown from '../components/Countdown';
 import SectionHeader from '../components/SectionHeader';
 import SermonCard from '../components/SermonCard';
-import { stats, beliefs, sermons, conferences, books, site } from '../lib/data';
+import { stats, beliefs, sermons, conferences, books, gallery, site } from '../lib/data';
 
 const featuredConf = conferences[0];
 
@@ -78,10 +78,10 @@ export default function HomePage() {
               <div className="absolute -inset-4 rounded-[2rem] bg-gold-gradient opacity-20 blur-2xl" />
               <div className="relative overflow-hidden rounded-[2rem] border border-white/15 shadow-2xl">
                 <Image
-                  src="/images/pastor/philip-03.jpg"
-                  alt="Pastor Oladelemi Philip Olubakin"
-                  width={1281}
-                  height={997}
+                  src="/images/ministry/hero.jpg"
+                  alt="Pastor Oladelemi Philip Olubakin ministering"
+                  width={1290}
+                  height={1560}
                   priority
                   className="h-full w-full object-cover"
                 />
@@ -120,10 +120,10 @@ export default function HomePage() {
             <div className="relative mx-auto max-w-md">
               <div className="overflow-hidden rounded-3xl border border-graphite-200 shadow-xl dark:border-white/10">
                 <Image
-                  src="/images/pastor/philip-02.jpg"
-                  alt="Pastor Philip Olubakin ministering"
-                  width={2188}
-                  height={2394}
+                  src="/images/ministry/preaching-1.jpg"
+                  alt="Pastor Philip Olubakin preaching"
+                  width={1290}
+                  height={1413}
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -244,6 +244,37 @@ export default function HomePage() {
             </div>
           </div>
         </Reveal>
+      </section>
+
+      {/* ============================ GALLERY ============================ */}
+      <section className="py-24">
+        <div className="container-page">
+          <SectionHeader
+            eyebrow="Media Gallery"
+            title="Life at SLC"
+            subtitle="Moments of worship, teaching and community from across the ministry."
+          />
+          <div className="mt-14 grid auto-rows-[220px] grid-cols-2 gap-4 lg:grid-cols-4">
+            {gallery.map((g, i) => (
+              <Reveal
+                key={g.src}
+                delay={(i % 4) * 0.06}
+                className={`${g.span === 'wide' ? 'col-span-2' : ''} ${g.span === 'tall' ? 'row-span-2' : ''}`}
+              >
+                <div className="group relative h-full w-full overflow-hidden rounded-2xl">
+                  <Image
+                    src={g.src}
+                    alt={g.alt}
+                    fill
+                    sizes="(max-width: 1024px) 50vw, 25vw"
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* ============================ BOOKS ============================ */}

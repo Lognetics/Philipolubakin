@@ -28,7 +28,7 @@ export const metadata = {
     description:
       'Raising believers to live beyond the ordinary through faith, sound teaching and the power of the Holy Spirit.',
     siteName: 'Supernatural Life Church',
-    images: [{ url: '/images/pastor/philip-03.jpg', width: 1281, height: 997 }],
+    images: [{ url: '/images/ministry/hero.jpg', width: 1290, height: 1560 }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -55,6 +55,7 @@ const jsonLd = {
   description:
     'Nigerian pastor, lawyer, author and Bible teacher; founder of Supernatural Life Church and convener of Wind of the Spirit.',
   alumniOf: ['Obafemi Awolowo University', 'Nigerian Law School, Enugu'],
+  image: 'https://philipolubakin.vercel.app/images/ministry/hero.jpg',
 };
 
 export default function RootLayout({ children }) {

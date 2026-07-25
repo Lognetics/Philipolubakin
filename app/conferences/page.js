@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { MapPin, Calendar, Video, Users, ArrowRight, CheckCircle2 } from 'lucide-react';
 import PageHero from '../../components/PageHero';
 import Reveal from '../../components/Reveal';
@@ -32,6 +33,18 @@ export default function ConferencesPage() {
               id={c.slug}
               className={`relative overflow-hidden rounded-3xl bg-gradient-to-br ${c.accent} p-8 text-white sm:p-12`}
             >
+              {c.image && (
+                <>
+                  <Image
+                    src={c.image}
+                    alt={c.name}
+                    fill
+                    sizes="100vw"
+                    className="object-cover opacity-25"
+                  />
+                  <div className={`absolute inset-0 bg-gradient-to-br ${c.accent} opacity-80`} />
+                </>
+              )}
               <div className="pointer-events-none absolute -right-16 -top-16 h-64 w-64 rounded-full bg-gold/10 blur-3xl" />
               <div className="relative grid gap-10 lg:grid-cols-[1.3fr_0.7fr] lg:items-center">
                 <div>
