@@ -7,6 +7,13 @@
   --font-display: 'Playfair Display', Georgia, serif;
 }
 
+/* Mobile: reduce all rem-based type by 15% for a tighter phone reading experience. */
+@media (max-width: 639.98px) {
+  html {
+    font-size: 85%;
+  }
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -15,6 +22,7 @@
   body {
     @apply bg-white text-navy-900 dark:bg-navy-950 dark:text-graphite-100;
     font-family: var(--font-sans);
+    overflow-x: hidden;
   }
   h1, h2, h3, h4 {
     font-family: var(--font-display);

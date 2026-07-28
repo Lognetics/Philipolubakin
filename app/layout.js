@@ -11,11 +11,11 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-displa
 export const metadata = {
   metadataBase: new URL('https://supernaturallifechurch.org'),
   title: {
-    default: 'Pastor Philip Olubakin | Supernatural Life Church Global',
-    template: '%s | Supernatural Life Church',
+    default: 'Philip Olubakin — Pastor, Teacher & Author',
+    template: '%s | Philip Olubakin',
   },
   description:
-    'Official ministry home of Pastor Oladelemi Philip Olubakin, Senior Pastor of Supernatural Life Church (SLC) Global. Watch messages, join Wind of the Spirit, read books, and grow in the supernatural life.',
+    'The official portfolio of Pastor Oladelemi Philip Olubakin — pastor, lawyer, author, songwriter and Bible teacher; founder of Supernatural Life Church (SLC) Global. Get to know him, watch his messages on YouTube, read his books, and join Wind of the Spirit.',
   keywords: [
     'Pastor Philip Olubakin', 'Oladelemi Philip Olubakin', 'Supernatural Life Church',
     'SLC Global', 'Wind of the Spirit', '28 Days with the Holy Spirit',
@@ -23,16 +23,16 @@ export const metadata = {
   ],
   authors: [{ name: 'Supernatural Life Church' }],
   openGraph: {
-    type: 'website',
-    title: 'Pastor Philip Olubakin | Supernatural Life Church Global',
+    type: 'profile',
+    title: 'Philip Olubakin — Pastor, Teacher & Author',
     description:
-      'Raising believers to live beyond the ordinary through faith, sound teaching and the power of the Holy Spirit.',
-    siteName: 'Supernatural Life Church',
+      'Pastor, lawyer, author and Bible teacher; founder of Supernatural Life Church. Raising believers to live beyond the ordinary.',
+    siteName: 'Philip Olubakin',
     images: [{ url: '/images/ministry/hero.jpg', width: 1290, height: 1560 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pastor Philip Olubakin | Supernatural Life Church Global',
+    title: 'Philip Olubakin — Pastor, Teacher & Author',
     description: 'Raising believers to live beyond the ordinary.',
   },
   robots: { index: true, follow: true },
@@ -56,6 +56,14 @@ const jsonLd = {
     'Nigerian pastor, lawyer, author and Bible teacher; founder of Supernatural Life Church and convener of Wind of the Spirit.',
   alumniOf: ['Obafemi Awolowo University', 'Nigerian Law School, Enugu'],
   image: 'https://philipolubakin.vercel.app/images/ministry/hero.jpg',
+  url: 'https://philipolubakin.vercel.app',
+  knowsAbout: ['Christianity', 'The Holy Spirit', 'Faith', 'Prayer', 'Christian Leadership'],
+  sameAs: [
+    'https://www.youtube.com/c/PhilipOlubakin',
+    'https://www.instagram.com/philipolubakin/',
+    'https://www.facebook.com/eaglephilip/',
+    'https://x.com/philipolubakin',
+  ],
 };
 
 export default function RootLayout({ children }) {

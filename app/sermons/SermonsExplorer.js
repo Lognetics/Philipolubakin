@@ -17,7 +17,7 @@ export default function SermonsExplorer() {
       const matchQuery =
         !q ||
         s.title.toLowerCase().includes(q) ||
-        s.scripture.toLowerCase().includes(q) ||
+        (s.scripture || '').toLowerCase().includes(q) ||
         s.series.toLowerCase().includes(q);
       return matchSeries && matchQuery;
     });

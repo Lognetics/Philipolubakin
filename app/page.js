@@ -22,8 +22,8 @@ export default function HomePage() {
         <div className="pointer-events-none absolute -right-20 top-1/3 h-[28rem] w-[28rem] rounded-full bg-navy-800/50 blur-3xl" />
         <div className="pointer-events-none absolute inset-0 opacity-[0.04] [background-image:radial-gradient(circle_at_1px_1px,white_1px,transparent_0)] [background-size:28px_28px]" />
 
-        <div className="container-page relative z-10 grid items-center gap-12 pb-20 pt-10 lg:grid-cols-2 lg:pt-16">
-          <div>
+        <div className="container-page relative z-10 grid max-w-full items-center gap-12 pb-20 pt-10 lg:grid-cols-2 lg:pt-16">
+          <div className="min-w-0">
             <Reveal>
               <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium text-gold-light backdrop-blur">
                 <span className="relative flex h-2 w-2">
@@ -73,7 +73,7 @@ export default function HomePage() {
           </div>
 
           {/* Portrait */}
-          <Reveal delay={0.25} className="relative mx-auto w-full max-w-md">
+          <Reveal delay={0.25} className="relative mx-auto w-full min-w-0 max-w-md">
             <div className="relative">
               <div className="absolute -inset-4 rounded-[2rem] bg-gold-gradient opacity-20 blur-2xl" />
               <div className="relative overflow-hidden rounded-[2rem] border border-white/15 shadow-2xl">

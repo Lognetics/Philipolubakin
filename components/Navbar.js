@@ -36,9 +36,9 @@ export default function Navbar() {
             <Sparkles size={18} strokeWidth={2.5} />
           </span>
           <span className="flex flex-col leading-none">
-            <span className="font-display text-lg font-bold text-white">SLC Global</span>
+            <span className="font-display text-lg font-bold text-white">Philip Olubakin</span>
             <span className="text-[10px] uppercase tracking-[0.2em] text-gold-light">
-              Supernatural Life
+              Supernatural Life Church
             </span>
           </span>
         </Link>

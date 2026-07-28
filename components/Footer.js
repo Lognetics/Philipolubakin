@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Sparkles, Instagram, Facebook, Music2, MapPin, Mail } from 'lucide-react';
+import { Sparkles, Instagram, Facebook, Music2, MapPin, Mail, Youtube, Twitter } from 'lucide-react';
 import { nav, site } from '../lib/data';
 
 const footerLinks = [
@@ -20,12 +20,19 @@ export default function Footer() {
             <span className="grid h-9 w-9 place-items-center rounded-full bg-gold-gradient text-navy-950">
               <Sparkles size={18} strokeWidth={2.5} />
             </span>
-            <span className="font-display text-lg font-bold">Supernatural Life Church</span>
+            <span className="flex flex-col leading-none">
+              <span className="font-display text-lg font-bold">Philip Olubakin</span>
+              <span className="text-[10px] uppercase tracking-[0.2em] text-gold-light">Supernatural Life Church</span>
+            </span>
           </Link>
           <p className="mt-5 max-w-md text-sm leading-relaxed text-white/60">
             {site.subtitle}
           </p>
           <div className="mt-6 flex gap-3">
+            <a href={site.socials.youtube} target="_blank" rel="noreferrer" aria-label="YouTube"
+              className="grid h-10 w-10 place-items-center rounded-full border border-white/15 transition hover:border-gold hover:text-gold-light">
+              <Youtube size={18} />
+            </a>
             <a href={site.socials.instagram} target="_blank" rel="noreferrer" aria-label="Instagram"
               className="grid h-10 w-10 place-items-center rounded-full border border-white/15 transition hover:border-gold hover:text-gold-light">
               <Instagram size={18} />
@@ -33,6 +40,10 @@ export default function Footer() {
             <a href={site.socials.facebook} target="_blank" rel="noreferrer" aria-label="Facebook"
               className="grid h-10 w-10 place-items-center rounded-full border border-white/15 transition hover:border-gold hover:text-gold-light">
               <Facebook size={18} />
+            </a>
+            <a href={site.socials.x} target="_blank" rel="noreferrer" aria-label="X (Twitter)"
+              className="grid h-10 w-10 place-items-center rounded-full border border-white/15 transition hover:border-gold hover:text-gold-light">
+              <Twitter size={18} />
             </a>
             <a href={site.socials.spotify} target="_blank" rel="noreferrer" aria-label="Spotify Podcast"
               className="grid h-10 w-10 place-items-center rounded-full border border-white/15 transition hover:border-gold hover:text-gold-light">

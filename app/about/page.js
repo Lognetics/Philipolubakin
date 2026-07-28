@@ -35,28 +35,32 @@ export default function AboutPage() {
             <div className="prose-content space-y-5 text-graphite-700 dark:text-white/70">
               <span className="eyebrow"><Sparkles size={14} /> Biography</span>
               <p className="text-lg leading-relaxed">
-                Pastor <strong className="text-navy-900 dark:text-white">Oladelemi Philip Olubakin</strong> is a
+                <strong className="text-navy-900 dark:text-white">Oladelemi Philip Olubakin</strong> is a
                 Nigerian pastor, lawyer, author, songwriter, pianist, artist and Bible teacher who is passionate
                 about helping believers experience the reality of the supernatural through faith in Jesus Christ.
               </p>
               <p className="leading-relaxed">
-                He studied Law at <strong className="text-navy-900 dark:text-white">Obafemi Awolowo University</strong> and
-                later attended the <strong className="text-navy-900 dark:text-white">Nigerian Law School, Enugu Campus</strong> before
-                answering God&rsquo;s call into full-time ministry.
+                Born on the 15th of December, he was the seventh child and fifth son in a family of fourteen
+                children, born to <strong className="text-navy-900 dark:text-white">Chief Oladele Philip Ayinla</strong>,
+                the Omotoro of Owu. He attended Igamode Grammar School in Ota, Ogun State, before studying Law at{' '}
+                <strong className="text-navy-900 dark:text-white">Obafemi Awolowo University</strong>, Ile-Ife, and
+                completing his professional training at the <strong className="text-navy-900 dark:text-white">Nigerian Law
+                School, Enugu Campus</strong>.
               </p>
               <p className="leading-relaxed">
-                He grew up in a Baptist background, where his early Christian foundation was formed. In March 2019,
-                following what he describes as divine leading, he founded{' '}
-                <strong className="text-navy-900 dark:text-white">Supernatural Life Church (SLC)</strong> in Abuja
-                with seven founding members. The ministry has since grown into a global church with a mandate to
-                help believers &ldquo;live life beyond the ordinary.&rdquo;
+                Though trained for the courtroom, Philip answered a deeper call. Grounded in an early Baptist
+                foundation and serving faithfully as a choir member, in March 2019 he followed what he describes as
+                divine leading and founded <strong className="text-navy-900 dark:text-white">Supernatural Life Church
+                (SLC)</strong> in Abuja with just seven members. The ministry has since grown into a global church
+                with a mandate to help believers &ldquo;live life beyond the ordinary.&rdquo;
               </p>
               <p className="leading-relaxed">
-                Beyond leading SLC, Pastor Philip convenes transformational gatherings including{' '}
+                Beyond leading SLC, Philip convenes transformational gatherings including{' '}
                 <strong className="text-navy-900 dark:text-white">Wind of the Spirit</strong> and{' '}
                 <strong className="text-navy-900 dark:text-white">28 Days with the Holy Spirit</strong>, focused on
                 teaching Scripture, worship, prayer, and the ministry of the Holy Spirit. He is also the author of
-                books including <em>Launch</em> and <em>Maintaining Your Fire</em>.
+                books including <em>Launch</em> and <em>Maintaining Your Fire</em>, and channels his gifts as a
+                songwriter, pianist and artist into worship and creative ministry.
               </p>
             </div>
           </Reveal>
@@ -139,14 +143,15 @@ export default function AboutPage() {
                   <span className="eyebrow"><Heart size={14} /> Family</span>
                   <h2 className="heading-lg mt-4">Pastor Funmi Olubakin</h2>
                   <p className="mt-4 text-graphite-600 dark:text-white/60">
-                    Pastor Philip is married to <strong className="text-navy-900 dark:text-white">Pastor Funmi
-                    Olubakin</strong> — a preacher, author and co-pastor at Supernatural Life Church. Together they
-                    have three daughters and serve side by side, modelling a marriage and family built on the Word
-                    and the Spirit.
+                    Philip is married to <strong className="text-navy-900 dark:text-white">Pastor Funmi
+                    Olubakin</strong> — a preacher, author and co-pastor at Supernatural Life Church who also leads{' '}
+                    <strong className="text-navy-900 dark:text-white">Bliss Services</strong>. The two first met
+                    during choir rehearsals, and were married on 1 September 2012.
                   </p>
                   <p className="mt-4 text-graphite-600 dark:text-white/60">
-                    Their shared leadership reflects the heart of SLC: families and believers rising together to
-                    live beyond the ordinary.
+                    Together they are blessed with three daughters and serve side by side — modelling a marriage and
+                    family built on the Word and the Spirit. Their shared leadership reflects the heart of SLC:
+                    families and believers rising together to live beyond the ordinary.
                   </p>
                   <Link href="/contact" className="btn-ghost mt-8">
                     Connect with the ministry <ArrowRight size={16} />
