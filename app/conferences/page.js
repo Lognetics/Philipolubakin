@@ -8,7 +8,7 @@ import { conferences } from '../../lib/data';
 export const metadata = {
   title: 'Conferences & Events',
   description:
-    'Join Wind of the Spirit, 28 Days with the Holy Spirit and other gatherings convened by Pastor Philip Olubakin — encounters of Scripture, worship, prayer and the Holy Spirit.',
+    'Join Wind of the Spirit, 28 Days with the Holy Spirit and other gatherings convened by Pastor Philip Olubakin - encounters of Scripture, worship, prayer and the Holy Spirit.',
 };
 
 const eventPerks = ['Registration', 'Livestream', 'Schedules', 'Testimonials', 'Gallery', 'FAQs'];
@@ -23,7 +23,7 @@ export default function ConferencesPage() {
       <PageHero
         eyebrow="Gatherings"
         title="Conferences & Events"
-        subtitle="Transformational gatherings where the power and Word of God are communicated to believers. Come expectant — leave changed."
+        subtitle="Transformational gatherings where the power and Word of God are communicated to believers. Come expectant - leave changed."
       />
 
       <section className="container-page space-y-10 py-16">

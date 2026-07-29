@@ -11,11 +11,11 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-displa
 export const metadata = {
   metadataBase: new URL('https://supernaturallifechurch.org'),
   title: {
-    default: 'Philip Olubakin — Pastor, Teacher & Author',
+    default: 'Philip Olubakin - Pastor, Teacher & Author',
     template: '%s | Philip Olubakin',
   },
   description:
-    'The official portfolio of Pastor Oladelemi Philip Olubakin — pastor, lawyer, author, songwriter and Bible teacher; founder of Supernatural Life Church (SLC) Global. Get to know him, watch his messages on YouTube, read his books, and join Wind of the Spirit.',
+    'The official portfolio of Pastor Oladelemi Philip Olubakin - pastor, lawyer, author, songwriter and Bible teacher; founder of Supernatural Life Church (SLC) Global. Get to know him, watch his messages on YouTube, read his books, and join Wind of the Spirit.',
   keywords: [
     'Pastor Philip Olubakin', 'Oladelemi Philip Olubakin', 'Supernatural Life Church',
     'SLC Global', 'Wind of the Spirit', '28 Days with the Holy Spirit',
@@ -24,7 +24,7 @@ export const metadata = {
   authors: [{ name: 'Supernatural Life Church' }],
   openGraph: {
     type: 'profile',
-    title: 'Philip Olubakin — Pastor, Teacher & Author',
+    title: 'Philip Olubakin - Pastor, Teacher & Author',
     description:
       'Pastor, lawyer, author and Bible teacher; founder of Supernatural Life Church. Raising believers to live beyond the ordinary.',
     siteName: 'Philip Olubakin',
@@ -32,7 +32,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Philip Olubakin — Pastor, Teacher & Author',
+    title: 'Philip Olubakin - Pastor, Teacher & Author',
     description: 'Raising believers to live beyond the ordinary.',
   },
   robots: { index: true, follow: true },

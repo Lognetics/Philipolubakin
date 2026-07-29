@@ -7,7 +7,7 @@ import { givingOptions } from '../../lib/data';
 export const metadata = {
   title: 'Give',
   description:
-    'Partner with Supernatural Life Church through secure giving — tithes, offerings, projects and missions. Give once or set up recurring giving.',
+    'Partner with Supernatural Life Church through secure giving - tithes, offerings, projects and missions. Give once or set up recurring giving.',
 };
 
 const assurances = [
@@ -31,7 +31,7 @@ export default function GivePage() {
             <span className="eyebrow"><Heart size={14} /> Why we give</span>
             <h2 className="heading-lg mt-4">Generosity moves the Kingdom</h2>
             <p className="mt-4 text-graphite-600 dark:text-white/60">
-              At Supernatural Life Church, giving is worship. It is how we honour God and extend His work —
+              At Supernatural Life Church, giving is worship. It is how we honour God and extend His work -
               from teaching and media to missions and community impact across the nations.
             </p>
           </Reveal>

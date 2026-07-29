@@ -6,7 +6,7 @@ import { books } from '../../lib/data';
 export const metadata = {
   title: 'Books by Pastor Philip Olubakin',
   description:
-    'Explore books by Pastor Philip Olubakin including Launch and Maintaining Your Fire — resources to equip you for a Spirit-empowered, purposeful life.',
+    'Explore books by Pastor Philip Olubakin including Launch and Maintaining Your Fire - resources to equip you for a Spirit-empowered, purposeful life.',
 };
 
 const formatIcon = { Paperback: BookOpen, Ebook: Tablet, Audiobook: Headphones };

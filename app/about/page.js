@@ -9,7 +9,7 @@ import { timeline } from '../../lib/data';
 export const metadata = {
   title: 'About Pastor Philip Olubakin',
   description:
-    'The story of Pastor Oladelemi Philip Olubakin — lawyer, author, pianist and founder of Supernatural Life Church — and his wife Pastor Funmi Olubakin.',
+    'The story of Pastor Oladelemi Philip Olubakin - lawyer, author, pianist and founder of Supernatural Life Church - and his wife Pastor Funmi Olubakin.',
 };
 
 const gifts = [
@@ -25,7 +25,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About"
         title="The story of Pastor Philip Olubakin"
-        subtitle="A lawyer who traded the courtroom for the call of God — raising believers to live beyond the ordinary."
+        subtitle="A lawyer who traded the courtroom for the call of God - raising believers to live beyond the ordinary."
       />
 
       {/* Bio */}
@@ -144,12 +144,12 @@ export default function AboutPage() {
                   <h2 className="heading-lg mt-4">Pastor Funmi Olubakin</h2>
                   <p className="mt-4 text-graphite-600 dark:text-white/60">
                     Philip is married to <strong className="text-navy-900 dark:text-white">Pastor Funmi
-                    Olubakin</strong> — a preacher, author and co-pastor at Supernatural Life Church who also leads{' '}
+                    Olubakin</strong> - a preacher, author and co-pastor at Supernatural Life Church who also leads{' '}
                     <strong className="text-navy-900 dark:text-white">Bliss Services</strong>. The two first met
                     during choir rehearsals, and were married on 1 September 2012.
                   </p>
                   <p className="mt-4 text-graphite-600 dark:text-white/60">
-                    Together they are blessed with three daughters and serve side by side — modelling a marriage and
+                    Together they are blessed with three daughters and serve side by side - modelling a marriage and
                     family built on the Word and the Spirit. Their shared leadership reflects the heart of SLC:
                     families and believers rising together to live beyond the ordinary.
                   </p>

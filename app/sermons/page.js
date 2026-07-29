@@ -4,7 +4,7 @@ import SermonsExplorer from './SermonsExplorer';
 export const metadata = {
   title: 'Sermons & Messages',
   description:
-    'Watch and listen to Spirit-filled messages by Pastor Philip Olubakin — teachings on faith, the Holy Spirit, prayer, healing, the Kingdom and the supernatural life.',
+    'Watch and listen to Spirit-filled messages by Pastor Philip Olubakin - teachings on faith, the Holy Spirit, prayer, healing, the Kingdom and the supernatural life.',
 };
 
 export default function SermonsPage() {

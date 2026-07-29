@@ -7,7 +7,7 @@ import { site } from '../../lib/data';
 export const metadata = {
   title: 'Contact & Prayer',
   description:
-    'Reach Supernatural Life Church — request prayer, ask for counselling, or connect with the ministry of Pastor Philip Olubakin.',
+    'Reach Supernatural Life Church - request prayer, ask for counselling, or connect with the ministry of Pastor Philip Olubakin.',
 };
 
 const channels = [

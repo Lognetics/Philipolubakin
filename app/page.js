@@ -148,7 +148,7 @@ export default function HomePage() {
               <p className="mt-5 text-graphite-600 dark:text-white/60">
                 He studied Law at Obafemi Awolowo University and the Nigerian Law School, Enugu, before
                 answering God&rsquo;s call into full-time ministry. In March 2019 he founded Supernatural Life
-                Church in Abuja with seven members — a family that has since grown into a global church.
+                Church in Abuja with seven members - a family that has since grown into a global church.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link href="/about" className="btn-ghost">
@@ -170,7 +170,7 @@ export default function HomePage() {
             light
             eyebrow="Supernatural Life Church"
             title="What we believe"
-            subtitle="A global church with one mandate — helping believers live life beyond the ordinary."
+            subtitle="A global church with one mandate - helping believers live life beyond the ordinary."
           />
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {beliefs.map((b, i) => (
@@ -341,7 +341,7 @@ export default function HomePage() {
               align="left"
               eyebrow="Newsletter"
               title="Stay connected"
-              subtitle="Weekly teachings, prayer points and event updates — straight to your inbox."
+              subtitle="Weekly teachings, prayer points and event updates - straight to your inbox."
             />
           </div>
           <Reveal delay={0.1}>
